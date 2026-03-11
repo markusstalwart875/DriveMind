@@ -158,7 +158,9 @@ DriveMind 不是：
 - `CHANGELOG.md`、`CONTRIBUTING.md`、`TRADEMARKS.md`、`SECURITY.md`、`CODE_OF_CONDUCT.md`：治理、协作和边界文件
 - `.github/workflows/`：脚本与 markdown 链接的验证流程
 - `.github/ISSUE_TEMPLATE/`：issue 入口与联系渠道配置
-- `assets/logo/`：官方 logo 源资产`r`n- `assets/social/`：GitHub social preview 与发布配图资产`r`n- `docs/`：品牌、安装、许可、原则、交互模型、路线图等支撑文档
+- ssets/logo/：官方 logo 源资产
+- ssets/social/：GitHub social preview 与发布配图资产
+- docs/：品牌、安装、许可、原则、交互模型、路线图等支撑文档
 - `scripts/`：本地安装、远程 bootstrap 和 logo 导出脚本
 - `skill/`：DriveMind skill、参考文档和模板
 - `examples/`：DriveMind 行为示例与对比演示。
@@ -198,8 +200,13 @@ DriveMind 不是：
 - Issues：https://github.com/Yuzc-001/DriveMind/issues
 - 邮箱：`zxyu24@outlook.com`
 
-适合公开讨论的 bug、安装问题、文档缺口、功能建议，请优先走 Issues。`r`n涉及许可、私下协作、或不适合公开开线程的问题，可以直接发邮件。
+适合公开讨论的 bug、安装问题、文档缺口、功能建议，请优先走 Issues。
+涉及许可、私下协作、或不适合公开开线程的问题，可以直接发邮件。
 
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Yuzc-001/DriveMind&type=Date)](https://star-history.com/#Yuzc-001/DriveMind&Date)
 ## 继续阅读
 
 - [README.md](README.md)
@@ -207,7 +214,9 @@ DriveMind 不是：
 - [CHANGELOG.md](CHANGELOG.md)
 - [CONTRIBUTING.md](CONTRIBUTING.md)
 - [TRADEMARKS.md](TRADEMARKS.md)
-- [PROMO.md](PROMO.md)`r`n- [docs/github-presence.md](docs/github-presence.md)`r`n- [docs/brand-kit.md](docs/brand-kit.md)
+- [PROMO.md](PROMO.md)
+- [docs/github-presence.md](docs/github-presence.md)
+- [docs/brand-kit.md](docs/brand-kit.md)
 - [docs/licensing.md](docs/licensing.md)
 - [docs/installation.md](docs/installation.md)
 - [docs/distribution-strategy.md](docs/distribution-strategy.md)

@@ -158,7 +158,9 @@ When DriveMind is active, the agent should:
 - `CHANGELOG.md`, `CONTRIBUTING.md`, `TRADEMARKS.md`, `SECURITY.md`, `CODE_OF_CONDUCT.md`: governance, release history, and project boundaries
 - `.github/workflows/`: validation workflow for scripts and markdown links
 - `.github/ISSUE_TEMPLATE/`: issue entry guidance and contact links
-- `assets/logo/`: official logo system and source assets`r`n- `assets/social/`: GitHub social preview asset and release-ready repository artwork`r`n- `docs/`: brand kit, installation, licensing, principles, activation, interaction model, roadmap, and supporting product docs
+- ssets/logo/: official logo system and source assets
+- ssets/social/: GitHub social preview asset and release-ready repository artwork
+- docs/: brand kit, installation, licensing, principles, activation, interaction model, roadmap, and supporting product docs
 - `scripts/`: local installers, remote bootstrap entry points, and reproducible logo export tooling
 - `skill/`: the DriveMind skill, references, and templates
 - `examples/`: walkthroughs that show DriveMind in practice.
@@ -201,6 +203,10 @@ See [LICENSE.md](LICENSE.md) and [docs/licensing.md](docs/licensing.md).
 Use Issues for bugs, install problems, documentation gaps, and feature discussion.
 Use email for licensing, private collaboration, or questions that should not start in a public thread.
 
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Yuzc-001/DriveMind&type=Date)](https://star-history.com/#Yuzc-001/DriveMind&Date)
 ## Read next
 
 - [README.zh-CN.md](README.zh-CN.md)
@@ -208,7 +214,9 @@ Use email for licensing, private collaboration, or questions that should not sta
 - [CHANGELOG.md](CHANGELOG.md)
 - [CONTRIBUTING.md](CONTRIBUTING.md)
 - [TRADEMARKS.md](TRADEMARKS.md)
-- [PROMO.md](PROMO.md)`r`n- [docs/github-presence.md](docs/github-presence.md)`r`n- [docs/brand-kit.md](docs/brand-kit.md)
+- [PROMO.md](PROMO.md)
+- [docs/github-presence.md](docs/github-presence.md)
+- [docs/brand-kit.md](docs/brand-kit.md)
 - [docs/licensing.md](docs/licensing.md)
 - [docs/installation.md](docs/installation.md)
 - [docs/distribution-strategy.md](docs/distribution-strategy.md)
