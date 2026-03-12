@@ -4,9 +4,9 @@
 
 [English](./README.md) · [简体中文](./README.zh-CN.md) · [GitHub Repository](https://github.com/Yuzc-001/DriveMind) · [Issues](https://github.com/Yuzc-001/DriveMind/issues)
 
-[![Version](https://img.shields.io/badge/version-v0.2.0-0B1738?style=flat-square)](./CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-v0.3.0-0B1738?style=flat-square)](./CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-BUSL--1.1-23C993?style=flat-square)](./LICENSE.md)
-[![Validated](https://img.shields.io/badge/validated-Claude%20Code%20%7C%20Codex%20%7C%20OpenClaw-5B6CFF?style=flat-square)](./docs/github-release-v0.2.0.md)
+[![Validated](https://img.shields.io/badge/validated-Claude%20Code%20%7C%20Codex%20%7C%20OpenClaw-5B6CFF?style=flat-square)](./docs/github-release-v0.3.0.md)
 [![Codex](https://img.shields.io/badge/install-codex-29A8D8?style=flat-square)](./docs/installation.md)
 [![Claude%20Code](https://img.shields.io/badge/install-claude%20code-4466F2?style=flat-square)](./docs/installation.md)
 
@@ -16,9 +16,9 @@
 
 DriveMind is for people who want agents to work like careful collaborators, not reckless operators. It helps agents stay with meaningful work, keep humans informed, stop at unclear boundaries, and leave behind reusable lessons after the task is done.
 
-**Current release:** `v0.2 Validated`
+**Current release:** `v0.3.0`
 
-DriveMind v0.2.0 has now been validated across **Claude Code**, **Codex**, and **OpenClaw**.
+DriveMind v0.3.0 is the formal release that builds on the validated v0.2 baseline and extends DriveMind into a stronger decision-and-reliability layer across **Claude Code**, **Codex**, and **OpenClaw**.
 
 This repository ships the first public DriveMind package: the skill, one-click installers, operating references, templates, examples, governance docs, and brand assets needed to use it like a real product.
 
@@ -42,9 +42,9 @@ DriveMind exists to make that behavior calmer, safer, and easier to trust.
 
 ## What ships in this repo
 
-DriveMind `v0.2 Validated` includes:
+DriveMind `v0.3.0` includes:
 - a reusable DriveMind skill in `skill/SKILL.md`
-- persistence, escalation, and mode references in `skill/references/`
+- persistence, escalation, mode, task-typing, decision-gates, and stuck-resolution references in `skill/references/`
 - diary, review, and distillation templates in `skill/templates/`
 - local and remote install helpers in `scripts/`
 - product, licensing, and operating docs in `docs/`
@@ -198,10 +198,11 @@ When DriveMind is active, the agent should:
 - review style guidance for more natural retrospectives
 - validation across explicit triggers, implicit triggers, escalation, troubleshooting, judgment, and post-task review
 
-### `v0.3`
-- review timeline and dashboard ideas
-- configurable execution intensity
-- shared memory across roles or agents.
+### `v0.3 Formal Release`
+- lightweight task typing for judgment, boundary, progress, diagnosis, and distillation tasks
+- explicit decision gates for high-impact actions, production/release decisions, external representation, and data/deletion work
+- stuck-resolution guidance so persistence becomes blocker diagnosis and momentum recovery instead of brute repetition
+- compression rule to keep short answers natural and avoid visible framework over-expansion
 
 ## Usage boundary
 

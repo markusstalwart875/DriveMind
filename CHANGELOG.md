@@ -2,6 +2,31 @@
 
 All notable changes to DriveMind should be recorded here.
 
+## `v0.3.0` - 2026-03-12
+
+### Added
+- `task-typing.md` for lightweight internal task classification
+- `decision-gates.md` for boundary, pressure, release/production, external representation, and data/deletion decisions
+- `stuck-resolution.md` for blocker diagnosis and momentum recovery
+- a compression rule to keep short answers natural and avoid visible framework over-expansion
+- release notes for the formal v0.3.0 iteration
+
+### Changed
+- upgraded DriveMind from a validated reliability layer toward a sharper decision layer
+- strengthened persistence behavior so stuck work is resolved by blocker diagnosis rather than brute repetition
+- strengthened safety-boundary behavior so urgency does not weaken authorization or release discipline
+- improved output guidance so judgment, boundary, and stuck tasks can stay concise while still preserving clarity and next-step value
+- updated mode guidance so higher intensity never weakens authority boundaries
+- refined escalation guidance with clearer high-pressure and missing-authority handling
+
+### Validated
+- judgment-oriented responses
+- boundary-sensitive responses
+- high-pressure / urgency handling
+- stuck / progress-unblocking behavior
+- lightweight distillation behavior
+- regression checks against over-structured output
+
 ## `v0.2.0` - 2026-03-11
 
 ### Added
