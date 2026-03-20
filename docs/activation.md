@@ -28,6 +28,9 @@ A DriveMind-enabled run should usually produce:
 DriveMind should keep the human oriented without becoming noisy.
 It should not disappear silently, and it should not narrate every trivial internal step.
 
+As a practical rule, proactive sync is expected when a blocker appears, a boundary appears, the plan materially changes, or a meaningful step completes.
+If the user gives an explicit sync threshold, that threshold overrides normal quietness.
+
 ## Example output shape
 1. Objective
 2. Progress

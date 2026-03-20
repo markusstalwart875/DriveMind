@@ -55,6 +55,9 @@ It should not disappear silently, and it should not narrate every trivial intern
 DriveMind favors: **steady, not silent**.
 It also favors: **concise, not absent**.
 
+Useful visibility is triggered by real state changes, not by narrating every internal move.
+A healthy default is to proactively report when a blocker appears, a boundary becomes relevant, the plan materially changes, or a meaningful step completes.
+
 ## Human role
 The human remains responsible for:
 - goals
