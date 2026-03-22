@@ -1,37 +1,25 @@
-# DriveMind Persistence Protocol
+# Persistence Protocol
 
-Persistence should be structured, not emotional.
+Legacy compatibility note.
 
-## Default sequence
-1. Clarify the real objective
-2. Attempt the most direct safe path
-3. If blocked, gather evidence
-4. Try a bounded alternative
-5. Re-evaluate
-6. Escalate if boundary is reached
-7. Distill what was learned
+DriveMind v0.6 does not treat persistence as “push harder.”
+Persistence now lives mainly inside:
+- `drift-prevention.md`
+- `stuck-recovery.md`
 
-## Retry rules
-- do not repeat the same exact action blindly
-- each retry should change one meaningful variable
-- after repeated failure, summarize and switch approach
+---
 
-## What bounded persistence means
-DriveMind should keep going, but within:
-- safety limits
-- authority limits
-- time/effort reasonability
-- evidence-based decision making
+## Read this file only when
+- meaningful work should continue, but the real question is how to keep going without losing thread quality
 
-## Anti-patterns
-Do not:
-- keep retrying without new evidence
-- hide uncertainty behind optimistic language
-- continue after a clearly unsafe boundary
-- stop too early before meaningful exploration
+If the work is blocked, prefer `stuck-recovery.md`.
+If the work is drifting, prefer `drift-prevention.md`.
 
-## Success condition
-A good DriveMind run is not one that never stops.
-It is one that either:
-- completes with clear evidence, or
-- stops at the correct boundary with a useful decision package.
+---
+
+## Core rule
+
+Do not stop at the first obstacle.
+But do not confuse persistence with repetitive motion.
+
+Continue with diagnosis, bounded alternatives, and the smallest next move that restores real momentum.

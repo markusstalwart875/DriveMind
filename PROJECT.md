@@ -4,43 +4,48 @@
 DriveMind
 
 ## Category
-Collaboration doctrine and reliability layer for AI agents
+Execution-integrity and experience-compounding layer for long-horizon human-AI work
 
 ## One-line
-DriveMind gives agents clear goals, clear boundaries, and enough freedom to act — with calm reliability in real work.
+DriveMind helps meaningful work stay aligned, bounded, recoverable, and reusable across time.
 
 ## Product promise
-Help agents work like careful collaborators in long-running real tasks by giving them clear goals, clear boundaries, and enough freedom to act.
+DriveMind reduces degradation in long-horizon human-AI work and increases the chance that meaningful work leaves behind stronger future defaults.
 
 ## Core user value
-DriveMind helps agents:
-- remember what matters
-- continue without panic or bravado
-- surface risk boundaries clearly
-- return control to humans at the right moment
-- review and distill what happened for future reuse.
+DriveMind helps human-AI work:
+- resist goal drift
+- resist boundary drift
+- preserve continuity across pauses and session breaks
+- recover from stuckness without fake motion
+- close with reusable residue that improves future work
 
 ## The core product problem
-Most agent systems fail in real work not because they are unintelligent, but because they become hard to trust over time.
+Meaningful human-AI work often does not fail all at once.
+It degrades.
 
-DriveMind is designed to address four recurring failure modes:
-1. loss of continuity
-2. early stopping
-3. passive waiting
-4. weak judgment under uncertainty.
+The primary degradation modes are:
+1. goal drift
+2. boundary drift
+3. continuity decay
+4. stuck degeneration
+5. closure failure
+
+DriveMind exists to push these failure modes down.
 
 ## Core capabilities
-- calm persistence
-- boundary-aware escalation
-- human collaboration
-- post-task review and distillation
-- portable installation across skill-based agent environments.
+- drift prevention
+- boundary preservation
+- continuity preservation
+- stuck recovery
+- closure & compounding
+- portable installation across skill-based agent environments
 
 ## Primary users
-- developers using agent workflows
-- advanced AI users with recurring tasks
-- researchers evaluating agent reliability
-- teams that want steadier human-in-the-loop collaboration.
+- developers building long-running agent workflows
+- advanced AI users doing recurring or multi-session work
+- researchers studying agent execution reliability
+- teams that want human-in-the-loop collaboration to remain aligned over time
 
 ## Distribution model
 DriveMind ships one portable `drivemind` skill package.
@@ -48,78 +53,37 @@ DriveMind ships one portable `drivemind` skill package.
 It supports multiple install targets:
 - personal skill install
 - project skill install
-- custom directory install.
+- custom directory install
 
 ## Licensing model
 DriveMind is source-available under BUSL-1.1 as of March 11, 2026.
 The Change Date is March 11, 2030.
 The Change License is GPL-2.0-or-later.
 
-## What ships in `v0.1 Foundation`
-- the first reusable DriveMind skill
-- one-click GitHub install entry points
-- Codex and Claude Code install helpers
-- a standard source-available licensing model
-- activation and execution mode definitions
-- persistence and escalation protocols
-- diary, review, and distillation templates
-- a canonical brand kit and first logo assets
-- bilingual public entry points in English and Chinese
-- governance docs and a minimal validation workflow
-- GitHub repository presentation copy plus a social preview asset
-- examples and public-facing product docs.
+## v0.6 success criteria
+- long tasks keep a clearer active objective
+- risky work preserves authorization boundaries under pressure
+- pauses and resumes preserve more reasoning fidelity
+- blocked work is more diagnostic and less performatively busy
+- meaningful tasks leave behind stronger future defaults through residue selection
+- the skill stays concise enough to function as a real runtime layer, not a manifesto
 
-## `v0.1` success criteria
-- agents can switch execution modes with clear behavior changes
-- agents can surface boundary questions before risky work continues
-- agents can produce post-task reviews after difficult work
-- agents can preserve reusable lessons and escalation boundaries
-- users can install DriveMind into multiple agent environments without manual repackaging
-- core scripts and local markdown links are validated automatically
-- English and Chinese public entry points stay aligned
-- the public repository explains the product in under one minute.
-
-## `v0.1` boundary
+## v0.6 boundary
 
 ### Included
 - skill behavior packaging
-- one-click and local install scripts
-- installation and distribution docs
-- operating references
-- review and memory templates
-- bilingual README entry points
+- anti-degradation references
+- closure / compounding guidance
+- install scripts and distribution docs
+- examples and public product docs
 - governance docs and validation workflow
-- public docs, examples, and first logo assets.
 
 ### Excluded
-- full dashboard
-- cloud backend
-- automated runtime evaluation suite
-- broad multi-user features
-- a full visual identity system
-- Open Source status before the BUSL change date.
+- a hosted control plane
+- a dashboard product
+- automatic runtime evaluator implementation
+- broad multi-user orchestration infrastructure
+- claims of universal agent reliability beyond the execution-integrity scope
 
-## Suggested repository structure
-- `.github/workflows/`
-- `.github/ISSUE_TEMPLATE/`
-- `README.md`
-- `README.zh-CN.md`
-- `PROJECT.md`
-- `CHANGELOG.md`
-- `CONTRIBUTING.md`
-- `TRADEMARKS.md`
-- `SECURITY.md`
-- `CODE_OF_CONDUCT.md`
-- `PROMO.md`
-- `assets/`
-- `docs/`
-- `scripts/`
-- `skill/`
-- `examples/`
-- `VERSION`
 ## Product thesis
-The best collaborator — human or AI — needs clear goals, clear boundaries, and enough freedom to act.
-Not an operations manual.
-
-DriveMind exists to make that true for agent work.
-It turns calm judgment, explicit boundaries, reusable learning, and human collaboration into a practical operating doctrine rather than a rigid script.
+DriveMind is the layer that keeps meaningful human-AI work from degrading during long-horizon execution — and turns completed work into stronger future collaboration.

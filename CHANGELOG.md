@@ -2,6 +2,46 @@
 
 All notable changes to DriveMind should be recorded here.
 
+## `v0.6.0` - 2026-03-22
+
+### Changed
+- fully re-centered DriveMind from a “calm reliability layer” into an **execution-integrity + experience-compounding layer** for long-horizon human-AI work
+- reframed the product around five failure modes of degraded work: goal drift, boundary drift, continuity decay, stuck degeneration, and closure failure
+- rewrote `skill/SKILL.md` so the skill now activates around degradation risk rather than general collaboration doctrine
+- replaced the old main-path framing with a new active path: detect degradation risk → stabilize the thread → preserve boundary integrity → recover from stuckness → preserve continuity → close with compounding residue
+- established a new v0.6 product thesis in `docs/drivemind-v0.6-product-thesis.md`
+
+### Added
+- new core references:
+  - `skill/references/drift-prevention.md`
+  - `skill/references/boundary-preservation.md`
+  - `skill/references/continuity-preservation.md`
+  - `skill/references/stuck-recovery.md`
+  - `skill/references/closure-compounding.md`
+
+### Refactored
+- downgraded older reference files into compatibility / redirect layers so the new v0.6 structure becomes the real spine of the skill
+- clarified that old units such as persistence, escalation, decision gates, session handoff, task typing, and review style now belong under the stronger anti-degradation structure rather than acting as separate doctrine centers
+
+### Notes
+
+`v0.6.0` is a real product-center reset.
+
+It does not merely polish the previous doctrine.
+It changes the standard by which DriveMind should be judged:
+
+# not “does it sound mature?”
+# but “does it reduce degradation in meaningful long-horizon work and leave behind stronger future defaults?”
+
+Primary reading for this release:
+- `docs/drivemind-v0.6-product-thesis.md`
+- `skill/SKILL.md`
+- `skill/references/drift-prevention.md`
+- `skill/references/boundary-preservation.md`
+- `skill/references/continuity-preservation.md`
+- `skill/references/stuck-recovery.md`
+- `skill/references/closure-compounding.md`
+
 ## `v0.5.0` - 2026-03-20
 
 ### Added
@@ -48,14 +88,6 @@ All notable changes to DriveMind should be recorded here.
 - updated mode guidance so higher intensity never weakens authority boundaries
 - refined escalation guidance with clearer high-pressure and missing-authority handling
 
-### Validated
-- judgment-oriented responses
-- boundary-sensitive responses
-- high-pressure / urgency handling
-- stuck / progress-unblocking behavior
-- lightweight distillation behavior
-- regression checks against over-structured output
-
 ## `v0.2.0` - 2026-03-11
 
 ### Added
@@ -68,14 +100,6 @@ All notable changes to DriveMind should be recorded here.
 - improved non-trivial output guidance so implicit activation expands beyond one-line acknowledgements
 - changed review guidance from rigid template enforcement to structured-and-adaptive retrospectives
 - preserved a stable six-part review spine while reducing mechanical phrasing
-
-### Validated
-- explicit trigger behavior
-- implicit trigger behavior
-- escalation and safety-boundary handling
-- real troubleshooting flow
-- real boundary/judgment flow
-- real post-task review flow
 
 ## `v0.1.0` - 2026-03-11
 

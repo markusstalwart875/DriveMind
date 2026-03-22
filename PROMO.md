@@ -1,28 +1,44 @@
 # DriveMind Promo Pack
 
 ## Core line
-DriveMind is a calm reliability layer and collaboration doctrine for AI agents: clear goals, clear boundaries, enough freedom to act, and human collaboration for real work.
+DriveMind is an execution-integrity layer for long-horizon human-AI work: it keeps meaningful work aligned, bounded, recoverable, and reusable.
 
 ## GitHub release headline
-DriveMind: a calm reliability layer and collaboration doctrine for real human-in-the-loop agent work
+DriveMind v0.6: an execution-integrity layer for long-horizon human-AI work
 
 ## Chinese launch post
-DriveMind 想解决的不是“AI 会不会回答”，而是“AI agent 能不能像一个有分寸的合作伙伴那样，在真实工作里稳定推进”。
+DriveMind v0.6 想解决的，不是“AI 会不会回答”，也不是“AI 会不会显得更成熟”。
 
-这个 `v0.1 Foundation` 版本把项目整理成了更像产品的样子：现在已经有统一的品牌主文档、首页式 README、第一版 DriveMind skill、执行和升级规则、review 和记忆沉淀模板、可直接安装到 Codex 和 Claude Code 的脚本、一键安装入口、治理文档，以及最小验证工作流。
+它真正对抗的是：人机协作在长任务里逐步退化。
 
-它的核心不是让 agent 一味硬撑，而是让 agent 在重要任务上更稳、更清楚边界、更懂得在合适的时候把决定交还给人，并在任务结束后留下可复用经验。现在它还不是完整产品，但已经是一个清晰、可解释、可安装、许可边界清楚、维护方式明确的项目基础。
+任务一长，常见的问题不是突然失败，而是慢慢变形：目标漂移、边界变模糊、暂停后恢复失真、卡住后进入假忙、做完没有留下任何下次更强的 residue。
+
+DriveMind v0.6 的新中心，就是把这些退化压下去：让有意义的工作保持对齐、守住边界、可恢复，并在结束后留下更强的未来默认。
+
+这次版本不是继续润色“合作原则”，而是把 DriveMind 重构成一个更硬的执行层：
+- 对抗长任务退化
+- 保护 execution integrity
+- 把经验变成 compounding residue
+
+它不承诺 agent 不会失败。
+它承诺的是：失败不再那么失真，恢复不再那么脆弱，完成不再那么容易白做。
 
 ## English launch post
-DriveMind is built around a practical gap in agent systems: once the work becomes longer and more operational, the bottleneck is no longer only intelligence. It is whether the collaboration still feels reliable.
+DriveMind v0.6 is no longer best described as a calm reliability layer.
 
-The `v0.1 Foundation` release turns DriveMind into a more complete project foundation. The repository now includes a homepage-style README, the first reusable DriveMind skill, persistence and escalation protocols, review and memory templates, practical examples, local installers, one-click bootstrap entry points for Codex and Claude Code, a standard BUSL-1.1 source-available license model, a canonical brand kit, governance docs, a minimal validation workflow, and the first DriveMind logo system.
+Its real job is to resist degradation in long-horizon human-AI work.
 
-The goal is not to make agents blindly try harder. The goal is to help them continue thoughtfully, escalate safely, and collaborate with humans more cleanly.
+Meaningful work often does not collapse in one dramatic moment. It degrades gradually: the objective drifts, the boundary blurs, pauses weaken continuity, stuck work turns into fake motion, and completed work leaves behind too little reusable residue.
+
+DriveMind v0.6 is built to push those failure modes down.
+It helps work stay aligned, bounded, recoverable, and more reusable after completion.
+
+This is not a polish release.
+It is a product-center reset from collaboration doctrine toward execution integrity and experience compounding.
 
 ## Short release blurb
-DriveMind is evolving from a reliability-focused agent layer toward a clearer collaboration doctrine: clear goals, clear boundaries, enough freedom to act, with calmer execution, reusable learning, and human collaboration in real work.
+DriveMind v0.6 rebuilds the product around execution integrity: preventing degradation in meaningful long-horizon work and leaving behind stronger future defaults after the task ends.
 
 ## Social short versions
-- CN: DriveMind 是一个更克制、更清楚边界的 AI 可靠性层，现在已经可以一键安装到 Codex 和 Claude Code，并采用更标准的 BUSL-1.1 source-available 方案，还带有治理文档和最小验证流程。
-- EN: DriveMind is a calm reliability layer and collaboration doctrine for AI agents: clear goals, clear boundaries, enough freedom to act, packaged as an installable, source-available skill.
+- CN: DriveMind v0.6 不再只是“更成熟的协作原则”，而是对抗长任务退化的人机执行层：防漂移、守边界、保连续、抗假忙、留复利。
+- EN: DriveMind v0.6 is an execution-integrity layer for long-horizon human-AI work: resist drift, preserve boundaries, recover continuity, avoid fake motion, and leave behind stronger future defaults.

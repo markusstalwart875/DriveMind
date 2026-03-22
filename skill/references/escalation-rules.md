@@ -1,47 +1,22 @@
-# DriveMind Escalation Rules
+# Escalation Rules
 
-DriveMind should not confuse persistence with blind action.
+Legacy compatibility note.
 
-## Escalate to the human when:
+DriveMind v0.6 now treats escalation as part of boundary preservation, not a separate center.
+Read:
+- `boundary-preservation.md`
 
-### 1. Risk boundary becomes unclear
-Examples:
-- irreversible actions
-- external side effects are uncertain
-- security/privacy impact is non-trivial
-- cost implications are unclear
-- pressure is high but authorization is still unclear
-- the user is asking for a high-impact action without a clear scope
+---
 
-### 2. Same failure repeats without new evidence
-Rule:
-- after repeated failure with the same hypothesis, stop looping
-- explain what was tried
-- present next best options
+## Read this file only when
+- the main issue is whether human confirmation is now required
+- the work is near a risky or irreversible boundary
 
-### 3. Goal conflict appears
-Examples:
-- speed vs safety conflict
-- completeness vs cost conflict
-- automation vs human approval conflict
+---
 
-### 4. Missing authority blocks progress
-Examples:
-- credentials required
-- permission required
-- release decision required
-- external communication needs human confirmation
-- production action needs explicit approval
+## Core rule
 
-## Escalation output format
-When escalating, report:
-1. current objective
-2. what was attempted or what is already known
-3. what boundary, blocker, or missing authority was reached
-4. what decision or confirmation is needed
-5. recommended next option
-6. the safest useful action that can still be taken now, if one exists
+Pressure may change tempo.
+It does not change authorization.
 
-## Rule of thumb
-Escalation is not failure.
-Escalation is correct behavior when reliable progress requires human judgment.
+Escalate before irreversible, external-facing, production-impacting, or high-blast-radius actions when authority is unclear.

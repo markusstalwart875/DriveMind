@@ -1,56 +1,71 @@
 # DriveMind: Without vs With
 
+This comparison is not about whether DriveMind makes the agent sound nicer.
+It is about whether meaningful work degrades less and compounds more.
+
+---
+
 ## Scenario
-A meaningful task encounters failure, ambiguity, and the need for judgment.
+
+A meaningful task encounters:
+- uncertainty
+- friction
+- time pressure
+- the possibility of pause or interruption
+- the need for future reuse
 
 ---
 
 ## Without DriveMind
 
 ### Typical pattern
-- task starts normally
-- first obstacle appears
-- the agent gives a shallow explanation
-- progress slows or stops
-- useful lessons are not preserved
+- the task starts well enough
+- the first obstacle appears
+- the agent keeps moving, but the thread weakens
+- progress updates become less useful
+- retries become less diagnostic
+- boundary handling may become fuzzy under pressure
+- the task ends with little or no durable residue
 
-### Common failure modes
-- forgets prior context
-- stops too early
-- retries weakly or randomly
-- does not know when to escalate
-- no reusable post-task output
+### Common degradation modes
+- goal drift
+- boundary drift
+- continuity loss
+- fake-motion retries
+- closure failure
 
 ### Result
-The task may partially fail, and future runs start almost from zero again.
+Even if some work gets done, the collaboration degrades and the next similar task starts with too little accumulated advantage.
 
 ---
 
 ## With DriveMind
 
 ### Typical pattern
-- objective is restated clearly
-- first safe path is attempted
-- evidence is collected when blocked
-- bounded alternatives are tried
-- escalation happens when a real boundary is reached
-- a review and reusable lesson are produced
+- the active objective is stabilized
+- the real blocker is named before more effort is spent
+- boundary questions are surfaced before quiet overreach
+- continuity state is preserved when the task may pause
+- the task closes with the smallest residue that strengthens future work
 
-### Improvements
-- better continuity
-- stronger persistence
-- clearer safety boundaries
-- more reusable memory
-- more trustworthy task handling
+### Main improvements
+- stronger thread integrity
+- stronger boundary integrity
+- stronger continuity fidelity
+- better stuck recovery
+- stronger compounding after completion
 
 ### Result
-Even when the task cannot be fully completed, the run leaves:
-- a structured attempt history,
-- a boundary-aware escalation package,
-- a reusable lesson for future work.
+Even when the task is incomplete or partially blocked, the collaboration remains more aligned, more recoverable, and more useful next time.
 
 ---
 
 ## Core point
-DriveMind does not promise that agents never fail.
-It makes failures more structured, progress more reliable, and future attempts more valuable.
+
+DriveMind does not promise that hard work becomes easy.
+
+It makes meaningful work:
+- less degradable while in motion
+- less lossy across pauses
+- less likely to hide behind fake progress
+- more likely to leave behind stronger future defaults

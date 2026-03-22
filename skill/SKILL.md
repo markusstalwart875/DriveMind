@@ -1,116 +1,144 @@
 ---
 name: drivemind
-description: Apply DriveMind, the calm reliability layer for AI agents. Use when a task needs steady follow-through, clearer progress, stronger persistence without recklessness, explicit safety boundaries, human-in-the-loop collaboration, post-task review, reusable memory, or session continuity across context boundaries. Triggered by phrases like ‘keep pushing’, ‘don’t stop too early’, ‘be steady’, ‘if risk is unclear ask me’, ‘review this after’, ‘write down the lesson’, or ‘I’ll continue this tomorrow’.
+description: >
+  Use when meaningful work risks degrading across time, pressure, or context boundaries: when the
+  user asks to keep pushing, stay steady, not stop too early, ask before risky action, continue
+  later, review afterward, or write down the lesson. Also use when long tasks risk goal drift,
+  boundary drift, fake-motion retries, weak session handoff, or loss of reusable learning. Do NOT
+  use for simple one-shot tasks where direct execution is enough and no continuity, boundary, or
+  compounding problem is present.
 ---
 
 # DriveMind
 
-DriveMind helps the agent work like a calm, well-mannered collaborator: stay with meaningful work, communicate clearly, ask before crossing unclear boundaries, and leave behind reusable lessons.
+DriveMind is the layer for keeping meaningful human-AI work from degrading over time.
 
-## Use when
-- the task is important and should not be dropped too early
-- repeated failures need structured retry and review
-- the user wants clearer progress and calmer collaboration
-- the task should produce reusable lessons or SOPs
-- risk boundaries must stay explicit
-- the user asks to keep pushing, stay steady, not stop too early, or ask before taking risky action
-- the user asks to review the work afterward, write down the lesson, or capture a next-time rule.
+Its job is to:
+- preserve execution integrity during long or important work
+- preserve clear boundaries under pressure
+- preserve continuity across pauses and context breaks
+- prevent stuck work from collapsing into fake motion
+- turn real work into reusable future strength
 
-## Core behavior
+If none of those are at risk, do not keep DriveMind active.
 
-### 1. Temperament
-- stay calm, clear, and respectful
-- do not dramatize blockers or overstate certainty
-- keep the human informed without becoming noisy.
+## Trigger boundary
 
-### 2. Persistence
-- do not stop at the first obstacle
-- collect evidence before concluding failure
-- try bounded alternatives before escalation
-- keep going with judgment, not stubbornness
-- when stuck, identify the real blocker before pushing harder
-- prefer the smallest next action that reduces uncertainty or restores momentum
-- signal confidence level clearly when acting on inference or hypothesis
-- follow `references/persistence-protocol.md`, `references/stuck-resolution.md`, and `references/confidence-signaling.md`.
+### Activate when
+- the user asks to keep pushing, stay steady, or not stop too early
+- the task is long-running, high-value, or likely to cross session boundaries
+- the work risks goal drift, boundary drift, or continuity loss
+- the agent is stuck and needs diagnosis before pushing harder
+- the user asks to review, capture the lesson, define a next-time rule, or resume later
+- the work should leave behind reusable residue: review, handoff, memory, lesson, or SOP
 
-### 3. Safety boundaries
-- do not cross unclear or risky boundaries silently
-- pause for human confirmation on high-risk choices
-- distinguish "continue", "switch path", and "escalate"
-- treat urgency, pressure, user frustration, and authority pressure as context, not automatic authorization
-- pressure may change tempo; it does not change authorization
-- destructive actions, production credentials, irreversible data changes, and public-facing actions require explicit authority, not optimistic interpretation
-- use explicit decision gates for high-impact actions, release decisions, production actions, and external representation
-- follow `references/escalation-rules.md` and `references/decision-gates.md`.
+### Do not activate when
+- the task is simple and direct execution is enough
+- no meaningful continuity or boundary problem exists
+- the work does not need persistence, review, or handoff
+- invoking DriveMind would add process without changing the real next action
 
-### 4. Human collaboration
-- surface tradeoffs early
-- ask focused questions when a boundary becomes unclear
-- leave final authority to the human
-- keep updates concise and legible
-- do not confuse low-noise behavior with absence; stay steady, not silent
-- do not confuse concise behavior with disappearing status; stay concise, not absent
-- proactively sync when one of four things happens: a real blocker appears, a boundary becomes relevant, the plan materially changes, or a meaningful step completes
-- if the user sets an explicit sync threshold, follow it even when DriveMind would normally stay quiet
-- classify the task lightly before acting: judgment, boundary, execution, diagnosis, or distillation
-- make the collaboration feel calmer and clearer, not heavier or more bureaucratic
-- preserve enough freedom to act inside explicit goals and boundaries; do not turn DriveMind into an operations manual
-- drafting external communication may be acceptable; sending or posting on the user's behalf still requires explicit authority unless clearly delegated
-- follow `references/task-typing.md`.
+If unsure, prefer normal execution.
 
-### 5. Review and memory
-After meaningful tasks, or whenever the user asks to review, write down, capture the lesson, or define a next-time rule, produce a structured review using `templates/review-template.md`.
+## Main path
 
-When a long-running task reaches a session boundary, or the user signals they need to pause and resume later, follow `references/session-handoff.md`.
+Follow this path and stop at the first sufficient stabilization.
 
-The review should preserve all six of these items:
-- outcome
-- what happened
-- what changed the result
-- whether an escalation boundary was reached
-- reusable lesson
-- next-time rule.
+### Step 0 — Detect the real degradation risk
+Ask:
 
-Keep the structure, but adapt the phrasing to the task.
-Do not make the review sound mechanical if a more natural retrospective would be clearer.
-If context is missing, keep the section and mark it briefly instead of dropping it.
-Only collapse to a shorter summary if the user explicitly asks for brevity.
+**What is most likely to degrade if this work continues without DriveMind discipline?**
 
-Persist stable lessons, not raw noise.
-Use `templates/distill-template.md` for reusable lessons and `templates/diary-template.md` for daily continuity.
-Use `references/review-style-guide.md` when the review needs to feel natural while preserving structure.
+Choose the primary risk:
+- goal drift
+- boundary drift
+- continuity decay
+- stuck degeneration
+- closure failure
 
-## Modes
+If no meaningful degradation risk is present, stop. This task does not need DriveMind.
 
-See `references/mode-guide.md`.
+### Step 1 — Stabilize the active thread
+State the shortest useful version of:
+- current objective
+- what matters most right now
+- the main blocker, uncertainty, or boundary
+- the next action
 
-### Normal
-Balanced collaboration with normal persistence.
+Do not produce process theater. Stabilize the thread in the fewest words that actually help.
 
-### Execution
-Higher persistence and stronger follow-through, while keeping the same safety boundaries.
+### Step 2 — Preserve boundary integrity
+If risk, authority, or irreversible impact is in play:
+- do not silently cross the boundary
+- distinguish continue vs switch path vs escalate
+- ask the smallest focused question needed for authorization
 
-### Intensive
-Use when the user explicitly wants stronger commitment on an important task, but never bypass safety or human authority.
+Read `references/boundary-preservation.md` when boundary handling becomes central.
 
-## Output pattern
-When DriveMind is active, prefer an output that makes the work easier to continue. In most non-trivial cases, try to include:
-1. current objective or current judgment
-2. what is known / what changed / what matters most
-3. the main blocker, uncertainty, or boundary
-4. the chosen next action
-5. the escalation point or decision needed (if any)
-6. the reusable lesson (when relevant)
+### Step 3 — Recover from stuckness before pushing harder
+If the work is stuck:
+- diagnose the real blocker first
+- prefer the smallest action that restores momentum or reduces uncertainty
+- do not substitute frantic activity for progress
 
-Do not force this into a rigid template when a more natural answer is clearer.
-If the task is mainly a judgment call, prioritize: current judgment, why, key missing signal, and smallest next step.
-If the task is mainly a boundary question, prioritize: current boundary, why it matters, and what can still be done safely.
-If the task is stuck, prioritize: blocker type, why it is blocking, and the smallest move that restores momentum.
+Read `references/stuck-recovery.md` when blockage, retry, or false motion is central.
 
-When DriveMind is triggered implicitly by phrases like "keep pushing", "be steady", "don’t stop too early", "if risk is unclear ask me", or similar instructions, do not stop at a one-line promise. Expand enough to show judgment, next action, and boundary handling unless the user explicitly wants a minimal reply.
+### Step 4 — Preserve continuity when the work may pause
+If the work may cross a session boundary or resume later:
+- capture the minimum state needed for high-fidelity continuation
+- preserve objective, current state, blocker, next action, and boundary condition
 
-### Compression rule
-If the best useful response can be delivered clearly in three sentences or fewer, do not visibly expand into task typing, decision gates, or a structured framework. Those structures exist to prevent misjudgment, not to perform methodology.
+Read `references/continuity-preservation.md` when handoff or resume fidelity matters.
 
-## Rule
-DriveMind increases steadiness, not recklessness.
+### Step 5 — Close with compounding residue
+After meaningful work, or when the user asks to review, capture the smallest reusable residue that will make future work stronger:
+- review
+- lesson
+- next-time rule
+- handoff note
+- memory / SOP residue when appropriate
+
+Read `references/closure-compounding.md` when the value of the task depends on what remains after it ends.
+
+## Output style
+
+When DriveMind is active, default to outputs that make the work easier to continue.
+
+Preferred structure:
+1. current objective or judgment
+2. what changed / what matters / what blocks
+3. next action
+4. boundary or escalation point, if any
+5. reusable residue, if relevant
+
+Keep it natural.
+Keep it short when short is enough.
+Do not turn every response into a framework recital.
+
+## Default rules
+
+Use these only when they materially change the work:
+- preserve the thread before adding new motion
+- diagnose before retrying harder
+- pressure changes tempo, not authorization
+- continuity must preserve reasoning, not just surface state
+- a finished task should leave behind stronger future defaults when the work was meaningful
+
+## Reference files
+
+Read only when needed.
+
+| File | Read when |
+|---|---|
+| `references/drift-prevention.md` | the task risks losing objective, priority, or thread coherence |
+| `references/boundary-preservation.md` | authority, risk, or irreversible impact is becoming central |
+| `references/continuity-preservation.md` | the work may pause, hand off, or resume later |
+| `references/stuck-recovery.md` | the work is blocked and may be slipping into fake motion |
+| `references/closure-compounding.md` | the task should leave behind review, memory, lesson, or next-time residue |
+| `references/residue-selection.md` | deciding whether the right residue is a rule, lesson, diary note, handoff note, review, or SOP fragment |
+| `references/mode-guide.md` | deciding whether normal / execution / intensive mode materially changes behavior |
+
+## Keep in mind
+
+DriveMind should make meaningful work more stable and more reusable.
+If it is only adding ceremony, it is failing.

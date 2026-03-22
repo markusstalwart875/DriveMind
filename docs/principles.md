@@ -1,26 +1,24 @@
 # DriveMind Design Principles
 
-## 1. Reliability should feel calm
-The goal is not to sound more intense. The goal is to behave in a way people can trust during real work.
+## 1. Meaningful work should not degrade silently
+If the work keeps moving while objective, boundary, or continuity quality are decaying, the system is failing.
 
-## 1.5 Freedom is part of reliability
-A good collaborator needs room to think and act inside explicit goals and boundaries.
-DriveMind should strengthen judgment, not replace it with a manual.
+## 2. Preserve the thread before adding motion
+The first duty is not “do more.”
+It is: keep the real objective, state, and next action coherent.
 
-## 2. Boundaries stay visible
-If the risk boundary is unclear, the agent should surface that clearly instead of improvising past it.
+## 3. Pressure does not rewrite authorization
+Urgency may change tempo.
+It does not change who decides risky, irreversible, or high-blast-radius actions.
 
-Pressure, urgency, authority gradients, and user frustration may change tempo.
-They do not change authorization.
+## 4. Stuck work should become more diagnostic, not more frantic
+When blocked, the system should clarify blocker type before expanding effort.
 
-## 3. Human authority stays explicit
-The human owns goals, boundaries, and high-risk decisions. DriveMind improves execution inside those constraints.
+## 5. Continuity means preserving reasoning fidelity, not just state traces
+A resumable task is one whose thread can be restored with understanding, not just artifacts.
 
-## 4. Persistence must stay thoughtful
-Do not give up too early. But do not confuse stubbornness with reliability.
+## 6. Closure should compound future work
+Meaningful tasks should leave behind the smallest residue that makes future collaboration stronger.
 
-## 5. Memory must be reusable
-Logging is not enough. What matters is turning experience into future leverage.
-
-## 6. Reflection must change behavior
-A review is useful only if it changes what the agent does next time.
+## 7. Structure exists to prevent degradation, not to perform methodology
+If a shorter, clearer answer preserves integrity just as well, prefer it.

@@ -1,74 +1,61 @@
 # DriveMind Brand Kit
 
-This is the single source of truth for DriveMind positioning, tone, and reusable public copy.
-
 ## Core positioning
-DriveMind is a calm reliability layer and collaboration doctrine for AI agents.
 
-## Technical category
-A collaboration doctrine and calm reliability layer for AI agents.
+DriveMind is an execution-integrity layer for long-horizon human-AI work.
 
-## Supporting line
-Clear goals, clear boundaries, enough freedom to act — for real human-AI collaboration.
+## Core message
 
-## Product promise
-DriveMind helps agents work like careful collaborators: stay with meaningful tasks, ask before overreaching, and leave behind lessons worth reusing.
+DriveMind exists to keep meaningful work from degrading over time — and to make sure finished work leaves behind stronger future defaults.
 
-## Personality target
-DriveMind should feel:
-- gentle, not timid
-- rational, not cold
-- persistent, not stubborn
-- respectful, not submissive
-- prepared, transparent, and clear about boundaries.
+## Taglines
 
-## Tone
-- calm
-- precise
-- reassuring
-- operational
-- human-in-the-loop.
+### Primary
+- `Execution integrity for long-horizon human-AI work.`
 
-## What to emphasize
-- safety boundaries stay explicit
-- humans remain in charge of goals and high-risk decisions
-- persistence should feel steady, not dramatic
-- memory should reduce repeated friction
-- DriveMind is a product layer, not a roleplay gimmick.
+### Supporting
+- `Keep meaningful work aligned, bounded, recoverable, and reusable.`
+- `Resist drift. Preserve boundaries. Recover continuity. Compound experience.`
 
-## What to avoid
-- macho or aggressive phrasing
-- language that implies autonomy without oversight
-- positioning DriveMind as only a diary or memory tool
-- copy that sounds mystical, vague, or overly abstract
-- using "AI that doesn't quit" as the main brand line.
+## Messaging rules
 
-## Approved copy
+### Emphasize
+- degradation resistance
+- execution integrity
+- continuity fidelity
+- boundary preservation
+- compounding residue
 
-### GitHub repository description
-A calm reliability layer and collaboration doctrine for AI agents: clear goals, clear boundaries, enough freedom to act, thoughtful execution, reusable memory, and practical human collaboration.
+### Avoid overemphasizing
+- generic calmness
+- abstract maturity
+- vague collaboration doctrine language
+- soft “better teammate” claims without mechanism
 
-### Short intro
-DriveMind helps agents work like careful collaborators: stay with important tasks, ask when the boundary is unclear, and preserve lessons worth reusing.
+## Product language direction
 
-### Homepage hero
-Headline: DriveMind is a calm reliability layer and collaboration doctrine for AI agents.
+DriveMind should sound like:
+- a sharp systems layer
+- a product with a concrete failure model
+- a protector of long-horizon work quality
 
-Supporting line: Thoughtful execution, clear safety boundaries, and human collaboration for real work.
+It should not sound like:
+- a general self-help philosophy for agents
+- a broad etiquette layer
+- a bundle of nice collaboration values without a hard center
 
-### One-sentence description
-DriveMind gives agents clear goals, clear boundaries, and enough freedom to act — with steadier execution, clearer escalation, and reusable memory.
+## Elevator pitch
 
-### Launch line
-DriveMind is evolving from a reliability layer into a clearer collaboration doctrine for human-in-the-loop agent work.
+DriveMind helps human-AI collaboration stay aligned, bounded, recoverable, and more reusable across long tasks.
 
-## Canonical language
-- calm reliability
-- safety boundaries
-- human collaboration
-- thoughtful execution
-- reusable memory.
+## Short social copy
 
-## Retired language
-- "AI that doesn't quit" as the main brand line
-- separate copy files that restate the same pitch in different formats.
+- `DriveMind is the layer that keeps meaningful human-AI work from degrading.`
+- `Long tasks drift. DriveMind fights the drift.`
+- `Execution integrity + experience compounding for real human-AI work.`
+
+## Bottom line
+
+The DriveMind brand should point to one thing clearly:
+
+# this product exists to resist degradation in meaningful work and to compound useful residue afterward

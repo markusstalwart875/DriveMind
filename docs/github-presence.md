@@ -1,32 +1,48 @@
 # GitHub Presence
 
-This file is the source of truth for public GitHub repository presentation.
+## Repository description
 
-## Repository
-- URL: `https://github.com/Yuzc-001/DriveMind`
-- Issues: `https://github.com/Yuzc-001/DriveMind/issues`
-- Contact email: `zxyu24@outlook.com`
+DriveMind is an execution-integrity layer for long-horizon human-AI work.
 
-## About description
-A calm reliability layer and collaboration doctrine for AI agents: clear goals, clear boundaries, enough freedom to act, reusable memory, and practical human collaboration.
+## Short tagline
 
-## Topics
-- ai
-- ai-agents
-- agent-workflows
-- reliability
+Keep meaningful work aligned, bounded, recoverable, and reusable.
+
+## Suggested About copy
+
+DriveMind helps meaningful human-AI work resist degradation across time, pressure, and context boundaries.
+
+It focuses on:
+- drift prevention
+- boundary preservation
+- continuity preservation
+- stuck recovery
+- closure that compounds future work
+
+## Suggested alt lines
+
+- `DriveMind — execution integrity for long-horizon human-AI work`
+- `DriveMind — keep meaningful work from degrading over time`
+- `DriveMind — preserve thread, boundaries, continuity, and future residue`
+
+## Suggested topics
+
+- ai-agent
+- agent-skill
 - human-in-the-loop
-- automation
-- codex
-- claude-code
-- developer-tools
-- source-available
+- execution-integrity
+- long-horizon-work
+- reliability
+- continuity
+- review
+- memory
+- workflow
 
-## Social preview asset
-- Suggested file: `assets/social/drivemind-social-preview.png`
-- Suggested alt line: `DriveMind — A calm reliability layer and collaboration doctrine for AI agents`
+## Social preview direction
 
-## Notes
-- Keep About copy aligned with `docs/brand-kit.md`
-- Keep social preview visually aligned with the current logo system
-- Prefer updating this file before changing GitHub repository settings.
+The repository should present DriveMind less like a calm doctrine and more like a layer that protects meaningful work from degradation.
+
+The public GitHub surface should signal:
+- this is a real product layer
+- it has a sharp problem definition
+- it is about trustworthy long-horizon execution, not generic agent vibes

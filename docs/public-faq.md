@@ -1,22 +1,45 @@
-# Public FAQ
+# DriveMind Public FAQ
 
-## Is DriveMind open source?
-Not yet. As of March 11, 2026, DriveMind is source-available under BUSL-1.1. It is scheduled to convert to GPL-2.0-or-later on March 11, 2030.
+## Is DriveMind just a prompt?
+No.
+DriveMind is packaged as a reusable skill and positioned as an execution-integrity layer for long-horizon human-AI work.
 
-## Can I use it in production?
-Not by default before March 11, 2030. Production use before the Change Date requires separate permission from the licensor.
+## Is DriveMind only about being calmer?
+No.
+Calmness may be part of good behavior, but it is not the product center.
+The real center is resisting degradation in meaningful work.
 
-## Is it a prompt pack?
-No. DriveMind is intended as a collaboration doctrine and reliability layer, not a one-off prompt trick.
+## What kind of degradation?
+DriveMind focuses on:
+- goal drift
+- boundary drift
+- continuity decay
+- fake-motion stuckness
+- closure failure
 
-## Is it a memory tool?
-Not only. Memory is one part, but DriveMind also focuses on persistence, review, boundaries, and collaboration.
+## Does DriveMind make agents more autonomous?
+Not in the sense of weakening human authority.
+It makes execution more stable inside clear human-owned goals and boundaries.
 
-## What kind of behavior is DriveMind aiming for?
-Calm, rational, boundary-aware behavior that keeps the human in the loop instead of pretending the agent should act alone.
+## Does DriveMind always create a review or diary?
+No.
+DriveMind should leave behind the smallest residue that materially improves future work.
+Depending on the task, that may be:
+- nothing durable
+- a next-time rule
+- a lesson
+- a diary continuity note
+- a handoff note
+- a review
+- an SOP fragment
 
-## Who is it for?
-Developers, advanced AI users, researchers, and teams who want agents to behave more reliably in real work.
+## Is this a memory system?
+No.
+DriveMind can help decide what should be preserved, but it is not a standalone memory product.
 
-## Why not just tell the agent to keep going?
-Because persistence without judgment becomes recklessness. DriveMind is about thoughtful persistence plus safe escalation.
+## Is this a planning system?
+No.
+DriveMind may stabilize a task thread, but it is not primarily a planner.
+
+## What is the clearest way to understand DriveMind?
+Think of it as the layer that keeps meaningful human-AI work from degrading — and helps completed work leave behind stronger future defaults.

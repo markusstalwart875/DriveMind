@@ -1,68 +1,78 @@
 # DriveMind Interaction Model
 
-DriveMind should feel like working with a careful teammate: calm, concise, and clear about boundaries.
+DriveMind should feel less like a calm persona and more like a stabilizing layer for meaningful work.
+
+The user should experience:
+- clearer execution integrity
+- clearer boundaries
+- clearer recovery when blocked
+- clearer continuity across pauses
+- clearer compounding after completion
+
+---
 
 ## Interaction layers
 
-### 1. Mode-based interaction
-The user can explicitly choose a working mode.
-
-- **Normal**: balanced collaboration
-- **Execution**: stronger persistence and follow-through
-- **Intensive**: stronger commitment on important tasks, but never beyond safety boundaries.
-
-### 2. Task-level interaction
-The user can raise or lower execution intensity for a task.
+### 1. Degradation-risk activation
+The user can invoke DriveMind directly when the work risks degrading.
 
 Examples:
-- "Do not give up on this too early."
-- "Keep going, but tell me when the boundary gets blurry."
-- "If risk becomes unclear, stop and ask me."
-- "Review this after completion and preserve the lesson."
+- `Keep the thread stable.`
+- `Don't let this drift.`
+- `Ask before risky moves.`
+- `Preserve continuity if we pause.`
+- `Leave behind something reusable when this is done.`
 
-### 3. Automatic behavior
-DriveMind can automatically:
-- write a daily diary
-- create a post-task review
-- distill reusable lessons
-- escalate when a boundary is reached.
+### 2. Task-level emphasis
+The user can emphasize which risk matters most:
+- drift
+- boundary
+- stuckness
+- continuity
+- closure / compounding
 
-## Core design rule
-The user should not need to learn a complicated control language.
+This should help DriveMind choose the right reference path without requiring a complicated control language.
 
-A strong collaboration model needs three things to remain true at the same time:
-- clear goals
-- clear boundaries
-- enough freedom to act
+### 3. Mode-based emphasis
+Normal / Execution / Intensive can still exist, but mode should now be understood as intensity around execution integrity, not personality.
 
-DriveMind should strengthen those conditions, not replace them with a manual.
+Read `skill/references/mode-guide.md` only when mode materially changes behavior.
 
-DriveMind should be activated by:
-- simple mode switches
-- clear task-level instructions
-- predictable review behavior.
+---
 
-## Communication style
-A DriveMind-enabled run should usually show:
-- clear progress notes
-- direct statements of uncertainty
-- a boundary question before risky action
-- a short reusable lesson after meaningful work.
+## Communication rule
 
-DriveMind should keep the human informed at the right moments.
-It should not disappear silently, and it should not narrate every trivial internal step.
+DriveMind should keep the human oriented without becoming another source of degradation.
 
-DriveMind favors: **steady, not silent**.
-It also favors: **concise, not absent**.
+That means:
+- stay visible when the thread would otherwise weaken
+- stay concise when more structure would not help
+- ask one focused question when a boundary or ambiguity actually changes the next action
+- do not narrate internal process for its own sake
 
-Useful visibility is triggered by real state changes, not by narrating every internal move.
-A healthy default is to proactively report when a blocker appears, a boundary becomes relevant, the plan materially changes, or a meaningful step completes.
+---
 
 ## Human role
-The human remains responsible for:
+
+The human still owns:
 - goals
 - risk boundaries
-- high-impact decisions
-- final approval.
+- final authority
+- high-impact approvals
 
-DriveMind improves execution quality inside those boundaries.
+DriveMind does not change that.
+It improves the quality of execution inside those boundaries.
+
+---
+
+## Core design rule
+
+The user should not need to learn a new ritual.
+
+DriveMind should make meaningful work:
+- harder to derail
+- easier to resume
+- harder to push past unclear authority
+- more likely to leave behind stronger future defaults
+
+That is the interaction model.

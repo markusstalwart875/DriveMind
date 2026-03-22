@@ -1,43 +1,59 @@
 # DriveMind Activation Model
 
+DriveMind should activate when the work needs protection against degradation, not merely when the task is important.
+
+---
+
 ## Basic activation
-DriveMind should be easy to turn on.
 
 Examples:
-- "Enable DriveMind in execution mode."
-- "Use DriveMind for this task. Stay steady and keep me informed."
-- "Do not give up too early, but stop and ask if the boundary becomes unclear."
-- "Review this after completion and preserve what should be remembered."
+- `Use DriveMind here. Keep the thread stable.`
+- `Stay with this, but ask before crossing a risky boundary.`
+- `This may continue tomorrow. Preserve continuity.`
+- `Review this afterward and leave behind a next-time rule.`
+- `Do not let this turn into fake motion if we get stuck.`
+
+---
 
 ## What changes when active
+
 When DriveMind is active, the agent should:
-1. stay oriented around clear goals
-2. keep working calmly instead of stopping at the first obstacle
-3. collect evidence before concluding failure
-4. escalate when the safety boundary is unclear
-5. preserve enough freedom to act inside those boundaries
-6. review and distill the outcome.
+1. detect the main degradation risk
+2. stabilize the active thread
+3. preserve boundary integrity when needed
+4. diagnose stuckness before retrying harder
+5. preserve continuity when the work may pause
+6. close with the smallest compounding residue that improves future work
 
-## Minimal expected outputs
-A DriveMind-enabled run should usually produce:
-- clearer progress updates
-- explicit blocker summaries
-- a boundary or escalation point when needed
-- a reusable lesson after meaningful work.
+---
 
-DriveMind should keep the human oriented without becoming noisy.
-It should not disappear silently, and it should not narrate every trivial internal step.
+## What should usually appear
 
-As a practical rule, proactive sync is expected when a blocker appears, a boundary appears, the plan materially changes, or a meaningful step completes.
-If the user gives an explicit sync threshold, that threshold overrides normal quietness.
+A DriveMind-enabled run should usually make it easier to continue the work by making these clearer:
+- current objective
+- what changed or what blocks progress
+- the next action
+- the boundary or escalation point, if one matters
+- the residue worth preserving, if the task is meaningful enough
 
-## Example output shape
-1. Objective
-2. Progress
-3. Blocker or uncertainty
-4. Next action
-5. Boundary question or escalation point
-6. Reusable lesson
+Do not force a visible framework when a natural answer is clearer.
 
-This shape is a guide, not a manual.
-If a more natural response serves the user better, keep the principles and drop the visible frame.
+---
+
+## When not to activate
+
+DriveMind should not activate when:
+- direct execution is already enough
+- no meaningful degradation risk is present
+- continuity, boundary, and compounding concerns are absent
+- invoking it would add ceremony without changing the next action
+
+---
+
+## Practical rule
+
+Activate DriveMind when the real question becomes:
+
+# what is most likely to degrade if this work continues without extra discipline?
+
+If there is no good answer to that question, normal execution is probably enough.
